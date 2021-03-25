@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/NormalizeCSS.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar__photo"></div>
+            <h3 class="sidebar__header">Artem Pchelyakov</h3>
+            <h3 class="sidebar__header">senior product designer</h3>
+            <nav class="sidebar__nav">
+                <ul class="sidebar__nav__list">
+                    <li class="sidebar__nav__list__item">
+                        <a href="#" class="sidebar__nav__list__item__link">Works</a>
+                    </li>
+                    <span class="sidebar__nav__stripe">/</span>
+                    <li class="sidebar__nav__list__item">
+                        <a href="#" class="sidebar__nav__list__item__link">About</a>
+                    </li>
+                    <span class="sidebar__nav__stripe">/</span>
+                    <li class="sidebar__nav__list__item">
+                        <a href="#" class="sidebar__nav__list__item__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar__extra-links">
+                <div class="sidebar__link">
+                    <a href="#" class="sidebar__link">Inspiration</a>
+                </div>
+                <span class="sidebar__nav__stripe">/</span>
+                <div class="sidebar__link">
+                    <a href="#" class="sidebar__link">Shotout</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+                
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'fraction',
+            renderFraction: function (currentClass, totalClass) {
+            return '<span class="' + currentClass + '"></span>' +
+              ' of ' +
+              '<span class="' + totalClass + '"></span>';
+  }
+            // clickable: true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true
+        },
+
+        mousewheel: {
+            sensitivity: 1,
+            eventsTarget: ".swiper-slide"
+        }
+        });
+    </script>
+</body>
+</html>
