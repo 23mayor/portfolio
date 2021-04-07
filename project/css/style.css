@@ -402,16 +402,327 @@ p {
 }
 
 .preview--l {
-	max-width: 420px;
+	min-width: 420px;
 	min-height: 320px;
 	background-color: #F6F6F6;
 	border-radius: 40px;
 }
 
+/* SHOUTOUT */
+
+/* Avatar's */
+.group-people__photo-1 {
+	background-image: url(../img/group-photo-1.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-2 {
+	background-image: url(../img/group-photo-2.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-3 {
+	background-image: url(../img/group-photo-3.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-4 {
+	background-image: url(../img/group-photo-4.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-5 {
+	background-color: #F6F6F6;
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-6 {
+	background-image: url(../img/group-photo-6.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-7 {
+	background-image: url(../img/group-photo-7.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-8 {
+	background-image: url(../img/group-photo-8.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-9 {
+	background-image: url(../img/group-photo-9.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-10 {
+	background-image: url(../img/group-photo-10.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-11 {
+	background-image: url(../img/group-photo-11.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-12 {
+	background-image: url(../img/group-photo-12.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-13 {
+	background-image: url(../img/group-photo-13.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-14 {
+	background-image: url(../img/group-photo-14.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-15 {
+	background-image: url(../img/group-photo-15.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-16 {
+	background-image: url(../img/group-photo-16.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-17 {
+	background-image: url(../img/group-photo-17.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-18 {
+	background-image: url(../img/group-photo-18.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-19 {
+	background-image: url(../img/group-photo-19.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-20 {
+	background-image: url(../img/group-photo-20.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-21 {
+	background-image: url(../img/group-photo-21.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-22 {
+	background-image: url(../img/group-photo-22.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-23 {
+	background-image: url(../img/group-photo-23.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-24 {
+	background-image: url(../img/group-photo-24.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-25 {
+	background-image: url(../img/group-photo-25.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-26 {
+	background-image: url(../img/group-photo-26.jpg);
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-27 {
+	background-image: #F6F6F6;
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-28 {
+	background-image: #F6F6F6;
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-29 {
+	background-image: #F6F6F6;
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people__photo-30 {
+	background-image: #F6F6F6;
+	background-position: center center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.group-people {
+	width: 904px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	background-color: #F6F6F6;
+	border-radius: 40px;
+	padding: 40px 40px 20px 40px;
+	margin-bottom: 40px;
+}
+
+.group-people__card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #FFFFFF;
+	border-radius: 24px;
+	margin-bottom: 24px;
+	padding: 20px 20px;
+}
+
+.group-people__card:not(:last-child) {
+	margin-right: 24px;
+}
+
+.group-people__bio {
+	margin-left: 16px;
+}
+
+.group-people__name {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 140%;
+	color: #131313;
+	margin-bottom: 4px;
+}
+
+.group-people__descrip {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	color: #999999;
+}
+
+.about-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.about-group__descrip-1 {
+	width: 440px;
+}
+
+.about-group__descrip-2 {
+	width: 324px;
+}
+
+.about-group__text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 140%;
+	color: #131313;
+}
+
+
+
 /* FOOTER */
 
 .footer-container {
-	max-width: 1368px;
+	min-width: 1368px;
 	min-height: 560px;
 	background-color: #131313;
 	margin-top: 120px;
