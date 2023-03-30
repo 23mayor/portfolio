@@ -1,31 +1,66 @@
 @import-normalize;
 
+@font-face {
+  font-family: 'Kosugi';
+  src: local('Kosugi'),
+    url('./fonts/Kosugi-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Kosugi';
+  src: local('Kosugi'),
+    url('./fonts/Kosugi-Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Kosugi';
+  src: local('Kosugi'),
+    url('./fonts/Kosugi-Regular.woff2') format('woff2');
+  font-weight: normal;
+}
+
 * {
+  margin: 0;
   box-sizing: border-box;
 }
 
 :root {
   /* Typography */
   --family: Arial;
-  --fs-thin: 16px;
-  --fs-light: 18px;
-  --fs-medium: 24px;
-  --fs-regular: 40px;
-  --fs-large: 80px;
+  --secondary-font: 'Kosugi';
+
+  --fs-thin: 14px;
+  --fs-light: 16px;
+  --fs-medium: 20px;
+  --fs-large: 44px;
 
   --fw-light: 400;
+  --fw-regular: 500;
   --fw-normal: 600;
   --fw-bold: 700;
 
+  --fh-thin: 16px;
+  --fh-light: 18px;
+  --fh-medium: 20px;
+  --fh-regular: 22px;
+  --fh-large: 44px;
+
   /* Colors */
   --color-text: #F3F3F3;
+  --color-grey-text: #777777;
   --color-bg: #000000;
 }
 
 body {
-  margin: 0;
   font-family: var(--family);
   color: var(--color-text);
   font-weight: var(--fw-light);
   background-color: var(--color-bg);
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
 }

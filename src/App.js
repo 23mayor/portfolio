@@ -1,9 +1,14 @@
 import { Sidebar } from "./components/sidebar/Sidebar";
+import { Container } from "./components/Container";
+import { About } from "./components/about/About"
 
 function App() {
     return (
         <>
-            <Sidebar />
+            <Container>
+                <Sidebar />
+            </Container>
+            <About />
         </>
     );
 }
