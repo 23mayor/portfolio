@@ -35,21 +35,23 @@ const AboutEl = styled.div`
 `
 
 export const About = () => {
-    return <>
-        <AboutEl>
-            <Container>
-                <h1>
-                    I`m a system-thinking product designer. 
-                    I create things people love to use.
-                </h1>
-            </Container>
-        </AboutEl>
-        <AboutEl>
-            <Container>
-                <h2>My approach to work</h2>
-                <a href="/">Article on Medium [soon]</a>
-            </Container>
-            <img src={aboutwork} alt="My approach to work"/>
-        </AboutEl>
-    </>
+    return (
+        <>
+            <AboutEl>
+                <Container>
+                    <h1>
+                        I`m a system-thinking product designer. 
+                        I create things people love to use.
+                    </h1>
+                </Container>
+            </AboutEl>
+            <AboutEl>
+                <Container>
+                    <h2>My approach to work</h2>
+                    <a href="/">Article on Medium [soon]</a>
+                </Container>
+                <img src={aboutwork} alt="My approach to work"/>
+            </AboutEl>
+        </>
+    )
 }

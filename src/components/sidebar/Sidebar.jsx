@@ -7,7 +7,7 @@ const SidebarWrapper = styled.div`
     padding-top: 15px;
     margin-bottom: 20px;
 
-    p {
+    h5 {
         font-size: var(--fs-light);
         font-weight: var(--fw-bold);
         font-height: var(--fh-light);
@@ -25,8 +25,10 @@ const SidebarWrapper = styled.div`
 
 
 export const Sidebar = () => {
-    return <SidebarWrapper>
-        <img src={photo} alt="myPhoto"/>
-        <p>Artem Pchelyakov</p>
-    </SidebarWrapper>;
+    return (
+        <SidebarWrapper>
+            <img src={photo} alt="myPhoto"/>
+            <h5>Artem Pchelyakov</h5>
+        </SidebarWrapper>
+    )
 }
