@@ -8,22 +8,22 @@ const AboutEl = styled.div`
     h1 {
         font-size: var(--fs-large);
         font-weight: var(--fw-bold);
-        font-height: var(--fh-large);
+        line-height: var(--lh-large);
         letter-spacing: -0.03em;
     }
 
     h2 {
         font-size: var(--fs-medium);
-        font-height: var(--fh-regular);
+        line-height: var(--lh-regular);
         font-weight: var(--fw-bold);
         letter-spacing: -0.03em;
         margin-bottom: 5px;
     }
 
     a {
-        color: var(--color-grey-text);
+        color: var(--color-grey);
         font-size: var(--fs-thin);
-        font-height: var(--fh-light);
+        line-height: var(--lh-light);
         font-weight: var(--fw-regular);
         letter-spacing: -0.01em;
     }

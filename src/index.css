@@ -21,6 +21,48 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./fonts/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'),
+    url('./fonts/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'),
+    url('./fonts/JetBrainsMono-Light.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'),
+    url('./fonts/JetBrainsMono-Light.woff2') format('woff2');
+  font-weight: 300;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -29,7 +71,9 @@
 :root {
   /* Typography */
   --family: Arial;
-  --secondary-font: 'Kosugi';
+  --kosugi-font: 'Kosugi', sans-serif;
+  --inter-font: 'Inter', sans-serif;
+  --jetbrains-font: 'JetBrains Mono', monospace;
 
   --fs-thin: 14px;
   --fs-light: 16px;
@@ -41,27 +85,30 @@
   --fw-normal: 600;
   --fw-bold: 700;
 
-  --fh-thin: 16px;
-  --fh-light: 18px;
-  --fh-medium: 20px;
-  --fh-regular: 22px;
-  --fh-large: 44px;
+  --lh-thin: 16px;
+  --lh-light: 18px;
+  --lh-medium: 20px;
+  --lh-regular: 22px;
+  --lh-large: 44px;
 
   /* Colors */
-  --color-text: #F3F3F3;
-  --color-grey-text: #777777;
-  --color-bg: #000000;
+  --color-white: #F3F3F3;
+  --color-light-grey: #AAAAAA;
+  --color-grey: #777777;
+  --color-dark-grey: #333333;
+  --color-orange: #F18F49;
+  --color-black: #000000;
 }
 
 body {
   font-family: var(--family);
-  color: var(--color-text);
+  color: var(--color-white);
   font-weight: var(--fw-light);
-  background-color: var(--color-bg);
+  background-color: var(--color-black);
 }
 
 a {
-  color: var(--color-text);
+  color: var(--color-white);
   text-decoration: none;
 }
 

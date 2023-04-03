@@ -79,23 +79,27 @@ const CardImage = styled.img`
 `;
 
 
-export const Card = () => {
+export const Card2 = () => {
     return (
         <Wrapper>
             <Container>
                 <CardBody>
                     <CardPlatforms>
+                        <CardPlatformsItem>iOS</CardPlatformsItem>
+                        <CardPlatformsItem>android</CardPlatformsItem>
                         <CardPlatformsItem>web</CardPlatformsItem>
+                        <CardPlatformsItem>macOS</CardPlatformsItem>
+                        <CardPlatformsItem>win</CardPlatformsItem>
                     </CardPlatforms>
                     <CardName>
-                        Data Marketplace for 4k+ Data Scientists and Data Engineers
+                        Corporative messenger for the bank with 270k+ employees
                     </CardName>
                     <CardInfo>
                         <CardLink>Case Study</CardLink>
                         <Dot>·</Dot>
-                        <CardPosition>Senior Product Designer</CardPosition>
+                        <CardPosition>Lead Product Designer</CardPosition>
                         <Dot>·</Dot>
-                        <CardYear>2022</CardYear>
+                        <CardYear>2021</CardYear>
                     </CardInfo>
                 </CardBody>
             </Container>

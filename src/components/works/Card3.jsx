@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Container } from "../Container";
-import cardGreen from "../../cardgreen.svg"
+import marsInc from "../../marsInc.png"
 
 const Wrapper = styled.div`
     margin-bottom: 40px;
@@ -79,27 +79,29 @@ const CardImage = styled.img`
 `;
 
 
-export const Card = () => {
+export const Card3 = () => {
     return (
         <Wrapper>
             <Container>
                 <CardBody>
                     <CardPlatforms>
+                        <CardPlatformsItem>iOS</CardPlatformsItem>
+                        <CardPlatformsItem>android</CardPlatformsItem>
                         <CardPlatformsItem>web</CardPlatformsItem>
                     </CardPlatforms>
                     <CardName>
-                        Data Marketplace for 4k+ Data Scientists and Data Engineers
+                        The Mars Inc. digital platform providing various services to pet owners
                     </CardName>
                     <CardInfo>
                         <CardLink>Case Study</CardLink>
                         <Dot>·</Dot>
                         <CardPosition>Senior Product Designer</CardPosition>
                         <Dot>·</Dot>
-                        <CardYear>2022</CardYear>
+                        <CardYear>2020</CardYear>
                     </CardInfo>
                 </CardBody>
             </Container>
-            <CardImage src={cardGreen} alt="image"/>
+            <CardImage src={marsInc} alt="image"/>
         </Wrapper>
     )
 }

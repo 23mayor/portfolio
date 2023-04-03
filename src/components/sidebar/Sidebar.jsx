@@ -10,7 +10,7 @@ const SidebarWrapper = styled.div`
     h5 {
         font-size: var(--fs-light);
         font-weight: var(--fw-bold);
-        font-height: var(--fh-light);
+        line-height: var(--lh-light);
         letter-spacing: -0.02em;
     }
 
