@@ -85,6 +85,8 @@ body {
 }
 
 a {
+  display: flex;
+
   color: var(--color-white);
   text-decoration: none;
 }

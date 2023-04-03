@@ -37,6 +37,7 @@ const InstituteName = styled.h2`
 
 const Info = styled.div`
     display: flex;
+    flex-wrap: wrap;
 `;
 
 const Link = styled.a`
@@ -45,7 +46,6 @@ const Link = styled.a`
     font-weight: var(--fw-regular);
     color: var(--color-orange);
     letter-spacing: -0.01em;
-    white-space: nowrap;
 `;
 
 const Specialty = styled.h6`
@@ -54,7 +54,6 @@ const Specialty = styled.h6`
     font-weight: var(--fw-regular);
     color: var(--color-grey);
     letter-spacing: -0.01em;
-    white-space: nowrap;
 `;
 
 const Year = styled.h6`
@@ -63,7 +62,6 @@ const Year = styled.h6`
     font-weight: var(--fw-regular);
     color: var(--color-grey);
     letter-spacing: -0.01em;
-    white-space: nowrap;
 `;
 
 const Dot = styled.span`
