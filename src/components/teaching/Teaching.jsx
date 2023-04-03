@@ -28,11 +28,11 @@ const SectionHeading = styled.h6`
         }
 `;
 
-export const Works = () => {
+export const Teaching = () => {
     return (
         <Wrapper>
             <Container>
-                <SectionHeading>Selected work</SectionHeading>
+                <SectionHeading>Teaching</SectionHeading>
             </Container>
             <List />
         </Wrapper>

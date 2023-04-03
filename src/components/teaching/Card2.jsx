@@ -1,30 +1,12 @@
 import styled from "styled-components";
 import { Container } from "../Container";
-import cardGreen from "../../cardgreen.svg"
-
+import course from "../../course.png"
 const Wrapper = styled.div`
     margin-bottom: 40px;
 `;
 
 const CardBody = styled.div`
 
-`;
-
-const CardPlatforms = styled.div`
-    display: flex;
-`;
-
-const CardPlatformsItem = styled.div`
-    background: var(--color-dark-grey);
-    border-radius: 4px;
-    padding: 0 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    font-family: var(--jetbrains-font);
-    font-size: var(--fs-thin);
-    line-height: var(--lh-light);
-    color: var(--color-light-grey);
-    font-weight: 300;
 `;
 
 const CardName = styled.h2`
@@ -75,27 +57,24 @@ const CardImage = styled.img`
 `;
 
 
-export const Card = () => {
+export const Card2 = () => {
     return (
         <Wrapper>
             <Container>
                 <CardBody>
-                    <CardPlatforms>
-                        <CardPlatformsItem>web</CardPlatformsItem>
-                    </CardPlatforms>
                     <CardName>
-                        Data Marketplace for 4k+ Data Scientists and Data Engineers
+                        Co-author of the “UX Designer” course
                     </CardName>
                     <CardInfo>
-                        <CardLink>Case Study</CardLink>
+                        <CardLink>Course Website</CardLink>
                         <Dot>·</Dot>
-                        <CardPosition>Senior Product Designer</CardPosition>
+                        <CardPosition>Netology</CardPosition>
                         <Dot>·</Dot>
-                        <CardYear>2022</CardYear>
+                        <CardYear>2020</CardYear>
                     </CardInfo>
                 </CardBody>
             </Container>
-            <CardImage src={cardGreen} alt="image"/>
+            <CardImage src={course} alt="image"/>
         </Wrapper>
     )
 }

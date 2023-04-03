@@ -28,7 +28,6 @@ const CardPlatformsItem = styled.div`
 `;
 
 const CardName = styled.h2`
-    font-family: var(--inter-font);
     font-size: var(--fs-medium);
     line-height: var(--lh-regular);
     font-weight: var(--fw-bold);
@@ -41,7 +40,6 @@ const CardInfo = styled.div`
 `;
 
 const CardLink = styled.a`
-    font-family: var(--inter-font);
     font-size: var(--fs-thin);
     line-height: var(--lh-thin);
     font-weight: var(--fw-regular);
@@ -50,7 +48,6 @@ const CardLink = styled.a`
 `;
 
 const CardPosition = styled.h6`
-    font-family: var(--inter-font);
     font-size: var(--fs-thin);
     line-height: var(--lh-thin);
     font-weight: var(--fw-regular);
@@ -59,7 +56,6 @@ const CardPosition = styled.h6`
 `;
 
 const CardYear = styled.h6`
-    font-family: var(--inter-font);
     font-size: var(--fs-thin);
     line-height: var(--lh-thin);
     font-weight: var(--fw-regular);

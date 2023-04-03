@@ -1,27 +1,6 @@
 @import-normalize;
 
 @font-face {
-  font-family: 'Kosugi';
-  src: local('Kosugi'),
-    url('./fonts/Kosugi-Regular.ttf') format('truetype');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Kosugi';
-  src: local('Kosugi'),
-    url('./fonts/Kosugi-Regular.woff') format('woff');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Kosugi';
-  src: local('Kosugi'),
-    url('./fonts/Kosugi-Regular.woff2') format('woff2');
-  font-weight: normal;
-}
-
-@font-face {
   font-family: 'Inter';
   src: local('Inter'),
     url('./fonts/Inter-Bold.woff') format('woff');
@@ -70,9 +49,7 @@
 
 :root {
   /* Typography */
-  --family: Arial;
-  --kosugi-font: 'Kosugi', sans-serif;
-  --inter-font: 'Inter', sans-serif;
+  --family: 'Inter', sans-serif;
   --jetbrains-font: 'JetBrains Mono', monospace;
 
   --fs-thin: 14px;
