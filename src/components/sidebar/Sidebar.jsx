@@ -2,7 +2,7 @@ import styled from "styled-components";
 import photo from "../../photo.png"
 
 const SidebarContainer = styled.div`
-    width: 12%;
+    width: 15%;
     padding: 15px 10px;
 
     @media (min-width: 1435px) {
@@ -11,6 +11,9 @@ const SidebarContainer = styled.div`
         bottom:0;
         left:0;
         padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
 `;
@@ -56,7 +59,8 @@ const SidebarWrapper = styled.div`
 `
 
 const LinkList = styled.div`
-    margin-top: 400px;
+    margin-top: auto;
+    margin-bottom: 0;
 
     @media (max-width: 1435px) {
         display: none;
