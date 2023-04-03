@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container } from "../Container";
+import { Content } from "../Content";
 
 const FooterContainer = styled.section`
     padding-top: 160px;
@@ -16,10 +16,10 @@ const FooterContainer = styled.section`
 
 export const Footer = () => {
     return (
-        <Container>
+        <Content>
             <FooterContainer>
                 <h6>© Artem Pchelyakov 2023</h6>
             </FooterContainer>
-        </Container>
+        </Content>
     )
 }

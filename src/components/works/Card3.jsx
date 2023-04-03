@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Container } from "../Container";
 import marsInc from "../../marsInc.png"
+import { Content } from "../Content";
 
 const Wrapper = styled.div`
     margin-bottom: 40px;
@@ -78,7 +78,7 @@ const CardImage = styled.img`
 export const Card3 = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <CardBody>
                     <CardPlatforms>
                         <CardPlatformsItem>iOS</CardPlatformsItem>
@@ -96,7 +96,7 @@ export const Card3 = () => {
                         <CardYear>2020</CardYear>
                     </CardInfo>
                 </CardBody>
-            </Container>
+            </Content>
             <CardImage src={marsInc} alt="image"/>
         </Wrapper>
     )

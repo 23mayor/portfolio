@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Container } from "../Container";
 import spotSchool from "../../spotSchool.png"
+import { Content } from "../Content";
 
 const Wrapper = styled.div`
     margin-bottom: 40px;
@@ -61,7 +61,7 @@ const CardImage = styled.img`
 export const Card3 = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <CardBody>
                     <CardName>
                         Mentor at the Design Spot School
@@ -74,7 +74,7 @@ export const Card3 = () => {
                         <CardYear>2021</CardYear>
                     </CardInfo>
                 </CardBody>
-            </Container>
+            </Content>
             <CardImage src={spotSchool} alt="image"/>
         </Wrapper>
     )

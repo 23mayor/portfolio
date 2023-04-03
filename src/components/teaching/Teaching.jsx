@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { List } from "./List";
-import { Container } from "../Container";
+import { Content } from "../Content";
 
 const Wrapper = styled.section`
     margin-bottom: 60px;
@@ -31,9 +31,9 @@ const SectionHeading = styled.h6`
 export const Teaching = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <SectionHeading>Teaching</SectionHeading>
-            </Container>
+            </Content>
             <List />
         </Wrapper>
     )

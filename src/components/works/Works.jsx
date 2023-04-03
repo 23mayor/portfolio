@@ -1,9 +1,13 @@
 import styled from "styled-components";
 import { List } from "./List";
-import { Container } from "../Container";
+import { Content } from "../Content";
 
 const Wrapper = styled.section`
     margin-bottom: 60px;
+
+    @media (min-width: 1435px) {
+        margin-bottom: 80px;
+    }
 `;
 
 const SectionHeading = styled.h6`
@@ -15,7 +19,7 @@ const SectionHeading = styled.h6`
         line-height: var(--lh-medium);
         letter-spacing: 0.1em;
         text-transform: uppercase;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
 
         &:before {
             content: '';
@@ -31,9 +35,9 @@ const SectionHeading = styled.h6`
 export const Works = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <SectionHeading>Selected work</SectionHeading>
-            </Container>
+            </Content>
             <List />
         </Wrapper>
     )

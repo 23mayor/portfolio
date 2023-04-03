@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Container } from "../Container";
 import course from "../../course.png"
+import { Content } from "../Content";
 const Wrapper = styled.div`
     margin-bottom: 40px;
 `;
@@ -60,7 +60,7 @@ const CardImage = styled.img`
 export const Card2 = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <CardBody>
                     <CardName>
                         Co-author of the “UX Designer” course
@@ -73,7 +73,7 @@ export const Card2 = () => {
                         <CardYear>2020</CardYear>
                     </CardInfo>
                 </CardBody>
-            </Container>
+            </Content>
             <CardImage src={course} alt="image"/>
         </Wrapper>
     )

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container } from "../Container";
+import { Content } from "../Content";
 
 const Wrapper = styled.section`
     margin-bottom: 60px;
@@ -73,7 +73,7 @@ const Dot = styled.span`
 export const Education = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <SectionHeading>Education</SectionHeading>
                 <InstituteName>
                     Institute of Information Technology and Intelligent Systems at Kazan Federal University
@@ -85,7 +85,7 @@ export const Education = () => {
                     <Dot>·</Dot>
                     <Year>2013 – 2017</Year>
                 </Info>
-            </Container>
+            </Content>
         </Wrapper>
     )
 }

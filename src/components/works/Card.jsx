@@ -1,9 +1,13 @@
 import styled from "styled-components";
-import { Container } from "../Container";
 import cardGreen from "../../cardgreen.svg"
+import { Content } from "../Content";
 
 const Wrapper = styled.div`
     margin-bottom: 40px;
+
+    @media (min-width: 1435px) {
+        margin-bottom: 60px;
+    }
 `;
 
 const CardBody = styled.div`
@@ -78,7 +82,7 @@ const CardImage = styled.img`
 export const Card = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <CardBody>
                     <CardPlatforms>
                         <CardPlatformsItem>web</CardPlatformsItem>
@@ -94,7 +98,7 @@ export const Card = () => {
                         <CardYear>2022</CardYear>
                     </CardInfo>
                 </CardBody>
-            </Container>
+            </Content>
             <CardImage src={cardGreen} alt="image"/>
         </Wrapper>
     )

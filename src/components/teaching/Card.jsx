@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { Container } from "../Container";
 import skillbox from "../../skillbox.png"
+import { Content } from "../Content";
 
 const Wrapper = styled.div`
     margin-bottom: 40px;
@@ -61,7 +61,7 @@ const CardImage = styled.img`
 export const Card = () => {
     return (
         <Wrapper>
-            <Container>
+            <Content>
                 <CardBody>
                     <CardName>
                         Speaker at the webinar “How freelance designers need to work with clients”
@@ -74,7 +74,7 @@ export const Card = () => {
                         <CardYear>2022</CardYear>
                     </CardInfo>
                 </CardBody>
-            </Container>
+            </Content>
             <CardImage src={skillbox} alt="image"/>
         </Wrapper>
     )
