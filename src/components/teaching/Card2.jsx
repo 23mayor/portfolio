@@ -1,8 +1,13 @@
 import styled from "styled-components";
 import course from "../../course.png"
 import { Content } from "../Content";
+
 const Wrapper = styled.div`
     margin-bottom: 40px;
+
+    @media (min-width: 1435px) {
+        margin-bottom: 60px;
+    }
 `;
 
 const CardBody = styled.div`
@@ -15,6 +20,12 @@ const CardName = styled.h2`
     font-weight: var(--fw-bold);
     letter-spacing: -0.03em;
     margin-bottom: 5px;
+
+    @media (min-width: 1435px) {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
 `;
 
 const CardInfo = styled.div`
@@ -27,6 +38,11 @@ const CardLink = styled.a`
     font-weight: var(--fw-regular);
     color: var(--color-orange);
     letter-spacing: -0.01em;
+
+    @media (min-width: 1435px) {
+        font-size: var(--fs-light);
+        line-height: var(--lh-regular);
+    }
 `;
 
 const CardPosition = styled.h6`
@@ -35,6 +51,11 @@ const CardPosition = styled.h6`
     font-weight: var(--fw-regular);
     color: var(--color-grey);
     letter-spacing: -0.01em;
+
+    @media (min-width: 1435px) {
+        font-size: var(--fs-light);
+        line-height: var(--lh-regular);
+    }
 `;
 
 const CardYear = styled.h6`
@@ -43,6 +64,11 @@ const CardYear = styled.h6`
     font-weight: var(--fw-regular);
     color: var(--color-grey);
     letter-spacing: -0.01em;
+
+    @media (min-width: 1435px) {
+        font-size: var(--fs-light);
+        line-height: var(--lh-regular);
+    }
 `;
 
 const Dot = styled.span`

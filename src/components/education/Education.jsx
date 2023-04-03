@@ -25,6 +25,11 @@ const SectionHeading = styled.h6`
             background-color: var(--color-white);
             margin-right: 10px;
         }
+
+        @media (min-width: 1435px) {
+            font-size: var(--fs-light);
+            line-height: var(--lh-light);
+        }
 `;
 
 const InstituteName = styled.h2`
@@ -33,6 +38,12 @@ const InstituteName = styled.h2`
     font-weight: var(--fw-bold);
     letter-spacing: -0.03em;
     margin-bottom: 5px;
+
+    @media (min-width: 1435px) {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
 `;
 
 const Info = styled.div`
@@ -46,6 +57,11 @@ const Link = styled.a`
     font-weight: var(--fw-regular);
     color: var(--color-orange);
     letter-spacing: -0.01em;
+
+    @media (min-width: 1435px) {
+        font-size: var(--fs-light);
+        line-height: var(--lh-regular);
+    }
 `;
 
 const Specialty = styled.h6`
@@ -54,6 +70,11 @@ const Specialty = styled.h6`
     font-weight: var(--fw-regular);
     color: var(--color-grey);
     letter-spacing: -0.01em;
+
+    @media (min-width: 1435px) {
+        font-size: var(--fs-light);
+        line-height: var(--lh-regular);
+    }
 `;
 
 const Year = styled.h6`
@@ -62,6 +83,11 @@ const Year = styled.h6`
     font-weight: var(--fw-regular);
     color: var(--color-grey);
     letter-spacing: -0.01em;
+
+    @media (min-width: 1435px) {
+        font-size: var(--fs-light);
+        line-height: var(--lh-regular);
+    }
 `;
 
 const Dot = styled.span`

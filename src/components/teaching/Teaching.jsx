@@ -4,6 +4,10 @@ import { Content } from "../Content";
 
 const Wrapper = styled.section`
     margin-bottom: 60px;
+
+    @media (min-width: 1435px) {
+        margin-bottom: 80px;
+    }
 `;
 
 const SectionHeading = styled.h6`
@@ -25,6 +29,11 @@ const SectionHeading = styled.h6`
             border-radius: 100%;
             background-color: var(--color-white);
             margin-right: 10px;
+        }
+
+        @media (min-width: 1435px) {
+            font-size: var(--fs-light);
+            line-height: var(--lh-light);
         }
 `;
 

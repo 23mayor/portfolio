@@ -30,6 +30,11 @@ const SectionHeading = styled.h6`
             background-color: var(--color-white);
             margin-right: 10px;
         }
+
+        @media (min-width: 1435px) {
+            font-size: var(--fs-light);
+            line-height: var(--lh-light);
+        }
 `;
 
 export const Works = () => {
