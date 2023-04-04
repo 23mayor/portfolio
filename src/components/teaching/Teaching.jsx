@@ -34,6 +34,7 @@ const SectionHeading = styled.h6`
         @media (min-width: 1435px) {
             font-size: var(--fs-light);
             line-height: var(--lh-light);
+            margin-bottom: 40px;
         }
 `;
 

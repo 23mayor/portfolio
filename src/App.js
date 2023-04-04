@@ -3,6 +3,7 @@ import { About } from "./components/about/About";
 import { Works } from "./components/works/Works";
 import { Teaching } from "./components/teaching/Teaching";
 import { Education } from "./components/education/Education";
+import { Mentoring } from "./components/mentoring/Mentoring";
 import { Footer } from "./components/footer/Footer";
 
 import styled from "styled-components";
@@ -22,6 +23,7 @@ function App() {
                 <About />
                 <Works />
                 <Teaching />
+                <Mentoring />
                 <Education />
                 <Footer />
             </Main>
