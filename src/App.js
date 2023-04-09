@@ -1,13 +1,9 @@
-import { Sidebar } from "./components/sidebar/Sidebar";
-import { About } from "./components/about/About";
-import { Works } from "./components/works/Works";
-import { Teaching } from "./components/teaching/Teaching";
-import { Education } from "./components/education/Education";
-import { Mentoring } from "./components/mentoring/Mentoring";
-import { Footer } from "./components/footer/Footer";
-
-import styled from "styled-components";
-import { Container } from "./components/Container";
+import styled from 'styled-components';
+import { Routes, Route } from 'react-router-dom'
+import { Container } from './components/Container';
+import { Homepage } from './pages/Homepage';
+import { Sberdata } from './pages/Sberdata';
+import { Sidebar } from './components/sidebar/Sidebar';
 
 const Main = styled.div`
     @media (min-width: 1435px) {
@@ -20,12 +16,10 @@ function App() {
         <Container>
             <Sidebar />
             <Main>
-                <About />
-                <Works />
-                <Teaching />
-                <Mentoring />
-                <Education />
-                <Footer />
+                <Routes>
+                    <Route path='*' Component={Homepage}/>
+                    <Route path='/sberdata' Component={Sberdata}/>
+                </Routes>
             </Main>
         </Container>
     );
