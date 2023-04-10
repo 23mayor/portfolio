@@ -80,7 +80,7 @@ const LinkIOS = styled.a`
     display: block;
     width: 60px;
     height: 60px;
-    border-radius: 100%;
+    border-radius: 8px;
     background-image: url('${linkiOS}');
     margin-right: 5px;
 `;
@@ -89,7 +89,7 @@ const LinkAndroid = styled.a`
     display: block;
     width: 60px;
     height: 60px;
-    border-radius: 100%;
+    border-radius: 8px;
     background-image: url('${linkandroid}');
 `;
 
@@ -123,7 +123,7 @@ const SectionHeading = styled.h6`
         @media (min-width: 1435px) {
             font-size: var(--fs-light);
             line-height: var(--lh-light);
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         }
 `;
 
