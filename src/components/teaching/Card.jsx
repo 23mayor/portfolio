@@ -89,13 +89,13 @@ export const Card = () => {
             <Content>
                 <CardBody>
                     <CardName>
-                        Speaker at the webinar “How freelance designers need to work with clients”
+                        Speaker at the webinar &ldquo;How freelance designers need to work with clients&rdquo;
                     </CardName>
                     <CardInfo>
                         <CardLink>Video on YouTube [rus]</CardLink>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardPosition>Skillbox</CardPosition>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardYear>2022</CardYear>
                     </CardInfo>
                 </CardBody>

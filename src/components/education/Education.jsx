@@ -108,9 +108,9 @@ export const Education = () => {
                 <Info>
                     <Link>University Website</Link>
                     <Dot>·</Dot>
-                    <Specialty>Bachelor’s Degree [Computer Science]</Specialty>
+                    <Specialty>Bachelor&rsquo;s Degree [Computer Science]</Specialty>
                     <Dot>·</Dot>
-                    <Year>2013 – 2017</Year>
+                    <Year>2013 &ndash; 2017</Year>
                 </Info>
             </Content>
         </Wrapper>

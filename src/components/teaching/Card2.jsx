@@ -89,13 +89,13 @@ export const Card2 = () => {
             <Content>
                 <CardBody>
                     <CardName>
-                        Co-author of the “UX Designer” course
+                        Co-author of the &ldquo;UX Designer&rdquo; course
                     </CardName>
                     <CardInfo>
                         <CardLink>Course Website</CardLink>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardPosition>Netology</CardPosition>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardYear>2020</CardYear>
                     </CardInfo>
                 </CardBody>

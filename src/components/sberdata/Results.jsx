@@ -122,7 +122,7 @@ export const Results = () => {
                         <ItemName>Impact across the company</ItemName>
                         <ItemDescription>
                             Created UI Library has been implemented into different products by other departments. 
-                            It let to create unified UX for the bank’s employees.
+                            It let to create unified UX for the bank&rsquo;s employees.
                         </ItemDescription>
                     </SliderItem>
                 </Slider>
@@ -146,7 +146,7 @@ export const Results = () => {
                     <ItemName>Impact across the company</ItemName>
                     <ItemDescription>
                         Created UI Library has been implemented into different products by other departments. 
-                        It let to create unified UX for the bank’s employees.
+                        It let to create unified UX for the bank&rsquo;s employees.
                     </ItemDescription>
                 </SliderItem>
             </DesktopWrapper>

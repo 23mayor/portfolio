@@ -245,7 +245,7 @@ export function Sberdata() {
                 <SectionHeading>About the product</SectionHeading>
                 <ProductCard>
                     <Name>
-                        Sber Data Supermarket – Internal product of data purchasing for Data Scientists, 
+                        Sber Data Supermarket &ndash; Internal product of data purchasing for Data Scientists, 
                         Data Engineers and Data Managers of the biggest bank in Russia
                     </Name>
                     <List>

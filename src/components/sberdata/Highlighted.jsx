@@ -57,7 +57,7 @@ const DescriptionContainer = styled.div`
 `;
 
 const Description = styled.h5`
-    width: 50%;
+    width: 100%;
     font-weight: var(--fw-regular);
     font-size: var(--fs-thin);
     line-height: var(--lh-thin);
@@ -65,6 +65,7 @@ const Description = styled.h5`
     color: var(--color-grey);
 
     @media (min-width: 1435px) {
+        width: 50%;
         font-size: var(--fs-light);
         line-height: var(--lh-regular);
     }

@@ -93,9 +93,9 @@ export const Card3 = () => {
                     </CardName>
                     <CardInfo>
                         <CardLink>Design Spot School Website</CardLink>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardPosition>EPAM</CardPosition>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardYear>2021</CardYear>
                     </CardInfo>
                 </CardBody>

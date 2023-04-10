@@ -126,9 +126,9 @@ export const Card2 = () => {
                     </CardName>
                     <CardInfo>
                         <CardLink>Case Study</CardLink>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardPosition>Lead Product Designer</CardPosition>
-                        <Dot>·</Dot>
+                        <Dot>&bull;</Dot>
                         <CardYear>2021</CardYear>
                     </CardInfo>
                 </CardBody>

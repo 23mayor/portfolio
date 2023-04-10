@@ -82,7 +82,7 @@ export const Carousel = () => {
                         <ItemName>Customer Needs</ItemName>
                         <ItemDescription>
                             Easier way to purchase a data for their needs. 
-                            Sometimes it’s critical to get required data immediately.
+                            Sometimes it&rsquo;s critical to get required data immediately.
                         </ItemDescription>
                     </SliderItem>
                     <SliderItem>
@@ -110,7 +110,7 @@ export const Carousel = () => {
                     <ItemName>Customer Needs</ItemName>
                     <ItemDescription>
                         Easier way to purchase a data for their needs. 
-                        Sometimes it’s critical to get required data immediately.
+                        Sometimes it&rsquo;s critical to get required data immediately.
                     </ItemDescription>
                 </SliderItem>
                 <SliderItem>
