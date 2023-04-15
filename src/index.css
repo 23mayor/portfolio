@@ -88,6 +88,17 @@ a {
   display: flex;
   color: var(--color-white);
   text-decoration: none;
+  cursor: pointer;
+}
+
+.slick-track {
+  width: 1500px;
+}
+.slick-slide {
+  margin-right: 5px;
+}
+.slick-list {
+  margin: 0 -5px;
 }
 
 @media (min-width: 1440px) {

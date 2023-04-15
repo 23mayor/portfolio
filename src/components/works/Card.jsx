@@ -122,7 +122,7 @@ export const Card = () => {
                         Data Marketplace for 4k+ Data Scientists and Data Engineers
                     </CardName>
                     <CardInfo>
-                        <CardLink>Case Study</CardLink>
+                        <CardLink href="/sberdata">Case Study</CardLink>
                         <Dot>&bull;</Dot>
                         <CardPosition>Senior Product Designer</CardPosition>
                         <Dot>&bull;</Dot>
