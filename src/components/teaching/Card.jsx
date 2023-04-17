@@ -1,6 +1,9 @@
 import styled from "styled-components";
-import skillbox from "../../skillbox.png"
+import skillbox from "../../skillbox.png";
 import { Content } from "../Content";
+import React from 'react';
+import ReactHintFactory from 'react-hint';
+const ReactHint = ReactHintFactory(React);
 
 const Wrapper = styled.div`
     margin-bottom: 40px;

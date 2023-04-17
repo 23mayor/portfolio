@@ -61,6 +61,7 @@ export const Carousel = () => {
         arrows: false,
         slidesToShow: 1.1,
         slidesToScroll: 1,
+        rows: 1,
       };
 
     return (
@@ -120,6 +121,7 @@ export const Carousel = () => {
                         I needed to transfer them to Figma and create components.
                     </ItemDescription>
                 </SliderItem>
+
             </DesktopWrapper>
         </>
     )
