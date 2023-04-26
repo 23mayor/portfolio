@@ -56,10 +56,10 @@ const DesktopWrapper = styled.div`
 export const Carousel = () => {
     var settings = {
         dots: false,
-        infinite: false,
-        speed: 500,
+        infinite: true,
+        speed: 200,
         arrows: false,
-        slidesToShow: 1.1,
+        slidesToShow: 1,
         slidesToScroll: 1,
         rows: 1,
       };
