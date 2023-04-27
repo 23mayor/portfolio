@@ -98,14 +98,6 @@ button {
   cursor: pointer;
 }
 
-
-.slick-slide {
-  margin: 0 5px;
-}
-.slick-list {
-  margin: 0 -5px;
-}
-
 .react-hint {
   position: absolute;
   display: block;

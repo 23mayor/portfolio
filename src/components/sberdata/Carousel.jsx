@@ -15,6 +15,14 @@ const SliderItem = styled.div`
     border-radius: 10px;
 `;
 
+const Marg = styled.div`
+    background-color: var(--color-black);
+    height: 100%;
+    width: 5px;
+`;
+
+const SliderItemContainer = styled.div``;
+
 const ItemName = styled.h6`
     font-weight: var(--fw-normal);
     font-size: var(--fs-thin);
@@ -59,7 +67,7 @@ export const Carousel = () => {
         infinite: true,
         speed: 200,
         arrows: false,
-        slidesToShow: 1,
+        slidesToShow: 1.1,
         slidesToScroll: 1,
         rows: 1,
       };
@@ -69,8 +77,11 @@ export const Carousel = () => {
             <SliderContainer>
                 <Slider {...settings}>
                     <SliderItem>
-                        <ItemName>My Role</ItemName>
-                        <ItemDescription>Senior Product Designer <br></br> ↓ <br></br>Lead Product Designer</ItemDescription>
+                        <Marg></Marg>
+                        <SliderItemContainer>
+                            <ItemName>My Role</ItemName>
+                            <ItemDescription>Senior Product Designer <br></br> ↓ <br></br>Lead Product Designer</ItemDescription>
+                        </SliderItemContainer>
                     </SliderItem>
                     <SliderItem>
                         <ItemName>Constraints</ItemName>
