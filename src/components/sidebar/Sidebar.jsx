@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import photo from "../../photo.png"
+import photo from "../../photo.png";
+import scroll from "../../scroll.svg";
 
 const SidebarContainer = styled.div`
     width: 15%;
@@ -18,10 +19,11 @@ const SidebarContainer = styled.div`
 
 `;
 
-const SidebarWrapper = styled.div`
+const SidebarWrapper = styled.a`
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    text-decoration: none !important;
 
     h5 {
         font-size: var(--fs-light);
@@ -58,13 +60,27 @@ const SidebarWrapper = styled.div`
     }
 `
 
-const LinkList = styled.div`
+const SidebarNav = styled.div`
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
     margin-top: auto;
     margin-bottom: 0;
 
     @media (max-width: 1435px) {
         display: none;
     }
+`;
+
+const LinkList = styled.div``;
+
+const Scroll = styled.a`
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    background-image: url(${scroll});
+    margin-bottom: 8px;
 `;
 
 const Link = styled.a`
@@ -80,10 +96,11 @@ const Link = styled.a`
 export const Sidebar = () => {
     return (
         <SidebarContainer>
-            <SidebarWrapper>
+            <SidebarWrapper href="\Homepage">
                 <img src={photo} alt="myPhoto"/>
                 <h5>Artem Pchelyakov</h5>
             </SidebarWrapper>
+        <SidebarNav>
             <LinkList>
                 <Link>CV</Link>
                 <Link>LinkedIn</Link>
@@ -91,6 +108,8 @@ export const Sidebar = () => {
                 <Link>Telegram</Link>
                 <Link>Email</Link>
             </LinkList>
+            <Scroll href="#anchor"/>
+        </SidebarNav>
         </SidebarContainer>
     )
 }
