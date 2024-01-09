@@ -91,20 +91,16 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 button {
   background: none;
   padding: 0;
   border: none;
   cursor: pointer;
   position:
-}
-
-
-.slick-slide {
-  margin: 0 5px;
-}
-.slick-list {
-  margin: 0 -5px;
 }
 
 .react-hint {

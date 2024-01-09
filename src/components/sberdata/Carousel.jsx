@@ -10,9 +10,27 @@ const SliderContainer = styled.div`
 `;
 
 const SliderItem = styled.div`
+    display: flex !important;
+`;
+
+const Marg = styled.div`
+    background-color: var(--color-black);
+    width: 5px;
+`;
+
+const SliderItemContainer = styled.div`
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 10px;
     background-color: #232326;
     border-radius: 10px;
+
+    @media (min-width: 1435px) {
+        height: 320px;
+    }
 `;
 
 const ItemName = styled.h6`
@@ -29,14 +47,12 @@ const ItemName = styled.h6`
 `;
 
 const ItemDescription = styled.h4`
-    margin-top: 150px;
     font-weight: var(--fw-bold);
     font-size: var(--fs-light);
     line-height: var(--lh-light);
     letter-spacing: -0.01em;
 
     @media (min-width: 1435px) {
-        margin-top: 200px;
         font-size: 24px;
         line-height: 24px;
     }
@@ -56,10 +72,10 @@ const DesktopWrapper = styled.div`
 export const Carousel = () => {
     var settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 200,
         arrows: false,
-        slidesToShow: 1,
+        slidesToShow: 1.1,
         slidesToScroll: 1,
         rows: 1,
       };
@@ -69,58 +85,70 @@ export const Carousel = () => {
             <SliderContainer>
                 <Slider {...settings}>
                     <SliderItem>
-                        <ItemName>My Role</ItemName>
-                        <ItemDescription>Senior Product Designer <br></br> ↓ <br></br>Lead Product Designer</ItemDescription>
+                        <Marg></Marg>
+                        <SliderItemContainer>
+                            <ItemName>My Role</ItemName>
+                            <ItemDescription>Senior Product Designer <br></br> ↓ <br></br>Lead Product Designer</ItemDescription>
+                        </SliderItemContainer>
                     </SliderItem>
                     <SliderItem>
-                        <ItemName>Constraints</ItemName>
-                        <ItemDescription>
-                            Previously layouts has been created in Sketch. 
-                            I needed to transfer them to Figma and create components.
-                        </ItemDescription>
+                        <Marg></Marg>
+                        <SliderItemContainer>
+                            <ItemName>Constraints</ItemName>
+                            <ItemDescription>
+                                Previously layouts has been created in Sketch. 
+                                I needed to transfer them to Figma and create components.
+                            </ItemDescription>
+                        </SliderItemContainer>
                     </SliderItem>
                     <SliderItem>
-                        <ItemName>Customer Needs</ItemName>
-                        <ItemDescription>
-                            Easier way to purchase a data for their needs. 
-                            Sometimes it&rsquo;s critical to get required data immediately.
-                        </ItemDescription>
+                        <Marg></Marg>
+                        <SliderItemContainer>
+                            <ItemName>Customer Needs</ItemName>
+                            <ItemDescription>
+                                Easier way to purchase a data for their needs. 
+                                Sometimes it&rsquo;s critical to get required data immediately.
+                            </ItemDescription>
+                        </SliderItemContainer>
                     </SliderItem>
                     <SliderItem>
-                        <ItemName>Responsibilities</ItemName>
-                        <ItemDescription>
-                            Previously layouts has been created in Sketch.
-                            I needed to transfer them to Figma and create components.
-                        </ItemDescription>
+                        <Marg></Marg>
+                        <SliderItemContainer>
+                            <ItemName>Responsibilities</ItemName>
+                            <ItemDescription>
+                                Previously layouts has been created in Sketch.
+                                I needed to transfer them to Figma and create components.
+                            </ItemDescription>
+                        </SliderItemContainer>
                     </SliderItem>
                 </Slider>
             </SliderContainer>
             <DesktopWrapper>
-                <SliderItem>
+                <SliderItemContainer>
                     <ItemName>My Role</ItemName>
                     <ItemDescription>Senior Product Designer <br></br> ↓ <br></br>Lead Product Designer</ItemDescription>
-                </SliderItem>
-                <SliderItem>
+                </SliderItemContainer>
+                <SliderItemContainer>
                     <ItemName>Constraints</ItemName>
                     <ItemDescription>
                         Previously layouts has been created in Sketch. 
                         I needed to transfer them to Figma and create components.
                     </ItemDescription>
-                </SliderItem>
-                <SliderItem>
+                </SliderItemContainer>
+                <SliderItemContainer>
                     <ItemName>Customer Needs</ItemName>
                     <ItemDescription>
                         Easier way to purchase a data for their needs. 
                         Sometimes it&rsquo;s critical to get required data immediately.
                     </ItemDescription>
-                </SliderItem>
-                <SliderItem>
+                </SliderItemContainer>
+                <SliderItemContainer>
                     <ItemName>Responsibilities</ItemName>
                     <ItemDescription>
                         Previously layouts has been created in Sketch.
                         I needed to transfer them to Figma and create components.
                     </ItemDescription>
-                </SliderItem>
+                </SliderItemContainer>
 
             </DesktopWrapper>
         </>
