@@ -73,8 +73,8 @@ export const About = () => {
             <AboutEl>
                 <Content>
                     <h1>
-                        I`m a system-thinking product designer. 
-                        I create things people love to use.
+                        Over 8 years of experience in complex B2B/B2C products in retail, 
+                        e-commerce, medical, and banking and 4 years in leadership
                     </h1>
                 </Content>
             </AboutEl>

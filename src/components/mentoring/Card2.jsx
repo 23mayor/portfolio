@@ -91,7 +91,12 @@ const Hint = styled.div`
 export const Card2 = () => {
     return (
         <CardBody>
-            <CardName>Thanks to him I got a lot of things in design that didn’t understand before</CardName>
+            <CardName>
+                For me, he was a mentor and a senior colleague who would always help me, 
+                but did it competently, directed my thoughts in the right direction. 
+                He always talked about the task in a structured way and helped me understand 
+                the files when I first joined the company.
+            </CardName>
             <CardInfo>
                 <CardInfoItems>
                     <CardInfoName>Olya Silyutina</CardInfoName>

@@ -88,7 +88,7 @@ const Hint = styled.div`
 export const Card = () => {
     return (
         <CardBody>
-            <CardName>Not gonna lie he’s built different</CardName>
+            <CardName>text</CardName>
             <CardInfo>
                 <CardInfoItems>
                     <CardInfoName>Lera Zuykova</CardInfoName>

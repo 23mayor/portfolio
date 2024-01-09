@@ -63,7 +63,7 @@ const CardInfoPhoto = styled.img`
 export const Card4 = () => {
     return (
         <CardBody>
-            <CardName>Not gonna lie he’s built different</CardName>
+            <CardName>text</CardName>
             <CardInfo>
                 <CardInfoItems>
                     <CardInfoName>Lera Zuykova</CardInfoName>
