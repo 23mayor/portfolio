@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cardPurple from "../../cardPurple.svg"
+import marsInc from "../../marsInc.png"
 import { Content } from "../Content";
 
 const Wrapper = styled.div`
@@ -17,6 +17,7 @@ const CardBody = styled.div`
 const CardPlatforms = styled.div`
     display: flex;
     margin-bottom: 5px;
+
     @media (min-width: 1435px) {
         margin-bottom: 10px;
     }
@@ -106,10 +107,11 @@ const Dot = styled.span`
 const CardImage = styled.img`
     width: 100%;
     margin-top: 20px;
+    border-radius: 10px;
 `;
 
 
-export const Card3 = () => {
+export const Card5 = () => {
     return (
         <Wrapper>
             <Content>
@@ -118,23 +120,20 @@ export const Card3 = () => {
                         <CardPlatformsItem>iOS</CardPlatformsItem>
                         <CardPlatformsItem>android</CardPlatformsItem>
                         <CardPlatformsItem>web</CardPlatformsItem>
-                        <CardPlatformsItem>macOS</CardPlatformsItem>
-                        <CardPlatformsItem>win</CardPlatformsItem>
                     </CardPlatforms>
                     <CardName>
-                        Collaborative metaverse for business accessible 
-                        via browser on any device [startup with funding $1m+]
+                        The Mars Inc. digital platform providing various services to pet owners
                     </CardName>
                     <CardInfo>
                         <CardLink>Case Study</CardLink>
                         <Dot>&bull;</Dot>
-                        <CardPosition>Lead Product Designer</CardPosition>
+                        <CardPosition>Senior Product Designer</CardPosition>
                         <Dot>&bull;</Dot>
-                        <CardYear>2022</CardYear>
+                        <CardYear>2020</CardYear>
                     </CardInfo>
                 </CardBody>
             </Content>
-            <CardImage src={cardPurple} alt="image"/>
+            <CardImage src={marsInc} alt="image"/>
         </Wrapper>
     )
 }

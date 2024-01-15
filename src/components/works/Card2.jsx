@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cardGreen from "../../cardgreen.svg"
+import previewGreen from "../../previewGreen.svg"
 import { Content } from "../Content";
 
 const Wrapper = styled.div`
@@ -17,6 +17,7 @@ const CardBody = styled.div`
 const CardPlatforms = styled.div`
     display: flex;
     margin-bottom: 5px;
+
     @media (min-width: 1435px) {
         margin-bottom: 10px;
     }
@@ -45,7 +46,7 @@ const CardName = styled.h2`
     line-height: var(--lh-regular);
     font-weight: var(--fw-bold);
     letter-spacing: -0.03em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     @media (min-width: 1435px) {
         font-size: 40px;
@@ -106,6 +107,7 @@ const Dot = styled.span`
 const CardImage = styled.img`
     width: 100%;
     margin-top: 20px;
+    border-radius: 10px;
 `;
 
 
@@ -115,25 +117,21 @@ export const Card2 = () => {
             <Content>
                 <CardBody>
                     <CardPlatforms>
-                        <CardPlatformsItem>iOS</CardPlatformsItem>
-                        <CardPlatformsItem>android</CardPlatformsItem>
                         <CardPlatformsItem>web</CardPlatformsItem>
-                        <CardPlatformsItem>macOS</CardPlatformsItem>
-                        <CardPlatformsItem>win</CardPlatformsItem>
                     </CardPlatforms>
                     <CardName>
-                        Corporative messenger for the bank with 270k+ employees
+                        Data Marketplace for 4k+ Data Scientists and Data Engineers
                     </CardName>
                     <CardInfo>
-                        <CardLink>Case Study</CardLink>
+                        <CardLink href="/sberdata">Case Study</CardLink>
                         <Dot>&bull;</Dot>
                         <CardPosition>Lead Product Designer</CardPosition>
                         <Dot>&bull;</Dot>
-                        <CardYear>2021</CardYear>
+                        <CardYear>2022</CardYear>
                     </CardInfo>
                 </CardBody>
             </Content>
-            <CardImage src={cardGreen} alt="image"/>
+            <CardImage src={previewGreen} alt="image"/>
         </Wrapper>
     )
 }

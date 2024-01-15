@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cardGreen from "../../cardgreen.svg"
+import cardBlue from "../../cardBlue.svg"
 import { Content } from "../Content";
 
 const Wrapper = styled.div`
@@ -46,7 +46,7 @@ const CardName = styled.h2`
     line-height: var(--lh-regular);
     font-weight: var(--fw-bold);
     letter-spacing: -0.03em;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     @media (min-width: 1435px) {
         font-size: 40px;
@@ -107,6 +107,7 @@ const Dot = styled.span`
 const CardImage = styled.img`
     width: 100%;
     margin-top: 20px;
+    border-radius: 10px;
 `;
 
 
@@ -119,18 +120,18 @@ export const Card = () => {
                         <CardPlatformsItem>web</CardPlatformsItem>
                     </CardPlatforms>
                     <CardName>
-                        Data Marketplace for 4k+ Data Scientists and Data Engineers
+                        Platform for commercial renting in NYC and Los Angeles
                     </CardName>
                     <CardInfo>
                         <CardLink href="/sberdata">Case Study</CardLink>
                         <Dot>&bull;</Dot>
                         <CardPosition>Senior Product Designer</CardPosition>
                         <Dot>&bull;</Dot>
-                        <CardYear>2022</CardYear>
+                        <CardYear>2023</CardYear>
                     </CardInfo>
                 </CardBody>
             </Content>
-            <CardImage src={cardGreen} alt="image"/>
+            <CardImage src={cardBlue} alt="image"/>
         </Wrapper>
     )
 }

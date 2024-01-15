@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cardPurple from "../../cardPurple.svg"
+import previewMessenger from "../../previewMessenger.svg"
 import { Content } from "../Content";
 
 const Wrapper = styled.div`
@@ -109,7 +109,7 @@ const CardImage = styled.img`
 `;
 
 
-export const Card3 = () => {
+export const Card4 = () => {
     return (
         <Wrapper>
             <Content>
@@ -122,19 +122,18 @@ export const Card3 = () => {
                         <CardPlatformsItem>win</CardPlatformsItem>
                     </CardPlatforms>
                     <CardName>
-                        Collaborative metaverse for business accessible 
-                        via browser on any device [startup with funding $1m+]
+                        Corporative messenger for the bank with 270k+ employees
                     </CardName>
                     <CardInfo>
                         <CardLink>Case Study</CardLink>
                         <Dot>&bull;</Dot>
                         <CardPosition>Lead Product Designer</CardPosition>
                         <Dot>&bull;</Dot>
-                        <CardYear>2022</CardYear>
+                        <CardYear>2021</CardYear>
                     </CardInfo>
                 </CardBody>
             </Content>
-            <CardImage src={cardPurple} alt="image"/>
+            <CardImage src={previewMessenger} alt="image"/>
         </Wrapper>
     )
 }
