@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import linkweb from "../linkweb.svg";
-import linkiOS from "../linkiOS.svg";
-import linkandroid from "../linkandroid.svg"
+// import linkweb from "../linkweb.svg";
+// import linkiOS from "../linkiOS.svg";
+// import linkandroid from "../linkandroid.svg"
 import { Content } from "../components/Content";
 import { Carousel } from "../components/sberdata/Carousel";
 import cardgreen from "../cardgreen.svg";
@@ -15,6 +15,7 @@ const Platforms = styled.div`
     margin-bottom: 5px;
 
     @media (min-width: 1435px) {
+        justify-content: flex-end;
         margin-bottom: 10px;
     }
 `;
@@ -42,7 +43,7 @@ const Title = styled.h1`
     line-height: var(--lh-large);
     font-weight: var(--fw-bold);
     letter-spacing: -0.03em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     @media (min-width: 1435px) {
         font-size: 120px;
@@ -63,35 +64,80 @@ const Description = styled.h2`
     }
 `;
 
-const LinkList = styled.div`
+// const LinkList = styled.div`
+//     display: flex;
+// `;
+
+// const LinkWeb = styled.a`
+//     display: block;
+//     width: 60px;
+//     height: 60px;
+//     border-radius: 100%;
+//     background-image: url('${linkweb}');
+//     margin-right: 5px;
+// `;
+
+// const LinkIOS = styled.a`
+//     display: block;
+//     width: 60px;
+//     height: 60px;
+//     border-radius: 8px;
+//     background-image: url('${linkiOS}');
+//     margin-right: 5px;
+// `;
+
+// const LinkAndroid = styled.a`
+//     display: block;
+//     width: 60px;
+//     height: 60px;
+//     border-radius: 8px;
+//     background-image: url('${linkandroid}');
+// `;
+
+const PasswordContainer = styled.div`
+    width: 100%;
+    height: 766px;
+
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-top: 40px;
+    background: #47474C;
+
+    input {
+        width: 480px;
+        height: 80px;
+        border: none;
+        border-radius: 10px;
+        background-color: #F3F3F326;
+        padding-left: 20px;
+        outline: none;
+
+        font-size: var(--fs-medium);
+        line-height: var(--lh-regular);
+        font-weight: var(--fw-bold);
+        color: var(--color-grey);
+    }
+
+    p {
+        width: 480px;
+        text-align: center;
+        margin-top: 30px;
+
+        font-family: var(--jetbrains-font);
+        font-size: var(--fs-light);
+        font-weight: var(--fw-light);
+        line-height: var(--lh-medium);
+    }
 `;
 
-const LinkWeb = styled.a`
-    display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    background-image: url('${linkweb}');
-    margin-right: 5px;
+const emailContainer = styled.div`
+    padding: 6px 10px;
 `;
 
-const LinkIOS = styled.a`
-    display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
-    background-image: url('${linkiOS}');
-    margin-right: 5px;
-`;
-
-const LinkAndroid = styled.a`
-    display: block;
-    width: 60px;
-    height: 60px;
-    border-radius: 8px;
-    background-image: url('${linkandroid}');
-`;
 
 const TitleImage = styled.img`
     width: 100%;
@@ -232,14 +278,25 @@ export function Sberdata() {
                     <PlatformsItem>android</PlatformsItem>
                     <PlatformsItem>web</PlatformsItem>
                 </Platforms>
-                <Title>Title</Title>
-                <Description>Description</Description>
-                <LinkList>
+                <Title>Sber Data Supermarket</Title>
+                <Description>Data Marketplace for 4k+ Data Scientists and Data Engineers</Description>
+                {/* <LinkList>
                     <LinkWeb href="/" />
                     <LinkIOS href="/" />
                     <LinkAndroid href="/" />
-                </LinkList>
+                </LinkList> */}
             </Content>
+            <PasswordContainer>
+                <>
+                    <input type="password" placeholder="Password"></input>
+                    <p>
+                        Screenshots of this project are confidential & can’t be displayed publicly.
+                        <br></br><br></br>
+                        If you’d like to see them reach me out via email.
+                    </p>
+
+                </>
+            </PasswordContainer>
             <TitleImage src={cardgreen} alt="image"/>
             <Content>
                 <SectionHeading>About the product</SectionHeading>

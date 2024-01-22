@@ -92,6 +92,14 @@ const Link = styled.a`
     margin-bottom: 8px;
 `;
 
+function BtnScrollUp() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth',
+      });
+};
+
 
 export const Sidebar = () => {
     return (
@@ -108,7 +116,7 @@ export const Sidebar = () => {
                 <Link>Telegram</Link>
                 <Link>Email</Link>
             </LinkList>
-            <Scroll href="#anchor"/>
+            <Scroll onClick={BtnScrollUp}/>
         </SidebarNav>
         </SidebarContainer>
     )
